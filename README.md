@@ -1,5 +1,5 @@
 # SideChannelMatlab
-This is a set of Matlab/Octave scripts to perform side channel analysis. There are scripts for Differential Power Analysis and Differential Computational Analysis both in single bit and multi-bit(hamming Weight) versions.
+This is a set of Matlab/Octave scripts to perform side channel analysis on crypto systems. There are scripts for Differential Power Analysis and Differential Computational Analysis both in single bit and multi-bit(hamming Weight) versions.
 
 The development log and usage examples are available at:
 
