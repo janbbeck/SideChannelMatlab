@@ -18,4 +18,4 @@ The goal of these scripts is to keep them as concise and simple as possible in o
 - Allow for the usage in academic settings
 - Make it easy to implement changes to try out variations
 
-Thus, they are easy to understand and change but not optimized for speed. If you need that, go to SideChannelMarvels. The scripts are all attacking AES SBOXes, but their simplicity makes it easy to adjust for other attacks. 
+Thus, they are easy to understand and change but not optimized for speed. If you need that, go to SideChannelMarvels. The scripts are all attacking AES SBOXes, but their simplicity makes it easy to adjust for other attacks and cryptosystems. 
