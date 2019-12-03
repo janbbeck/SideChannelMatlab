@@ -11,7 +11,7 @@ https://www.janbeck.com/cybersecurity-challenges-ctfs-and-more/attacks-on-white-
 
 https://www.janbeck.com/cybersecurity-challenges-ctfs-and-more/attacks-on-white-box-crypto-hands-on-multi-bit-attack
 
-The name of this project is a bot of a tongue-in-cheek reference to the SideChannelMarvels tools available here:
+The name of this project is a bit of a tongue-in-cheek reference to the SideChannelMarvels tools available here:
 https://github.com/SideChannelMarvels
 
 The goal of these scripts is to keep them as concise and simple as possible in order to
