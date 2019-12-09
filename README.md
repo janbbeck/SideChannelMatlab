@@ -18,4 +18,8 @@ The goal of these scripts is to keep them as concise and simple as possible in o
 - Allow for the usage in academic settings
 - Make it easy to implement changes to try out variations
 
-Thus, they are easy to understand and change but not optimized for speed. If you need that, go to SideChannelMarvels. The scripts are all attacking AES SBOXes, but their simplicity makes it easy to adjust for other attacks and cryptosystems. 
+Thus, they are easy to understand and change but not optimized for speed. If you need that, go to SideChannelMarvels. The scripts are all attacking AES SBOXes, but their simplicity makes it easy to adjust for other attacks and cryptosystems.
+
+DPA.m is a single-bit differential power analysis attack. It is a modified version of a script provided by Florent Bruguier as in support of the book "Differential power analysis, advances in cryptology – crypto 1999 , Kocher, P., Jaffe, J. and Jun, B. (1999) ‘ LNCS 1666, pp.388–397, Springer-Verlag.". The files plaintext-00112233445566778899aabbccddeeff.txt and traces-00112233445566778899aabbccddeeff.bin are also from there.
+
+PAHammingCorrelation.m is a multi-bit (one byte) power analysis attack. It uses a Hamming Weight model with a Pearson Correlation. It uses the same data set at DPA.m for comparability, but can be easily adjusted for new data.
