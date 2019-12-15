@@ -22,4 +22,4 @@ Thus, they are easy to understand and change but not optimized for speed. If you
 
 **DPA.m** is a single-bit differential power analysis attack. It is a modified version of a script provided by Florent Bruguier as support for the book "Differential power analysis, advances in cryptology – crypto 1999 , Kocher, P., Jaffe, J. and Jun, B. (1999) ‘ LNCS 1666, pp.388–397, Springer-Verlag.". The files **plaintext-00112233445566778899aabbccddeeff.txt** and **traces-00112233445566778899aabbccddeeff.bin** are also from there.
 
-**PAHammingCorrelation.m** is a multi-bit (one byte) power analysis attack. It uses a Hamming Weight model with a Pearson Correlation. It uses the same data set as **DPA.m** for comparability, but can be easily adjusted for new data.
+**DPAHammingCorrelation.m** is a multi-bit (one byte) differential power analysis attack. It uses a Hamming Weight model with a Pearson Correlation. It uses the same data set as **DPA.m** for comparability, but can be easily adjusted for new data.
