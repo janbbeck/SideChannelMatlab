@@ -27,9 +27,9 @@ Thus, they are easy to understand and change but not optimized for speed. If you
 The folder **TracerPIN** contains a fork of the TracerPIN tool from
 https://github.com/SideChannelMarvels/Tracer/tree/master/TracerPIN
 
-It adds 2 output file format keywords to support the operation of the SideChannelMatlab scripts
+It adds 2 output file format keywords to support the operation of the SideChannelMatlab scripts for Differential Computational Analysis
 
 The folder **tiny-AES-c** contains a fork of the tiny-AES-c tool from 
 https://github.com/kokke/tiny-AES-c
 
-It adds a program that can take the AES data as 16 byte block from stdin to support the operation of the SideChannelMatlab scripts.
+It adds a program that can take the AES data as 16 byte block from stdin to support the testing/demonstration of the SideChannelMatlab scripts.
