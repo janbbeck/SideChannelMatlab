@@ -33,3 +33,7 @@ The folder **tiny-AES-c** contains a fork of the tiny-AES-c tool from
 https://github.com/kokke/tiny-AES-c
 
 It adds a program that can take the AES data as 16 byte block from stdin to support the testing/demonstration of the SideChannelMatlab scripts.
+
+**DCA.m** is a single-bit differential computational analysis attack. It is a modified version of the **DPA.m** to allow analysis of whitebox execution traces instead of power traces. For testing, **maketracesBits.m** creates a shell script **tracescript.sh** which makes execution traces of the **tiny-AES-c** example using **TracerPIN**. These traces can then be loaded using **loadtracesBits.m**. Then **DCA.m** can be run and it will evaluate these traces. Modify the **maketracesBits.m** to execute another whitebox program, if you want to analyze that.
+
+
